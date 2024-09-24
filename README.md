@@ -112,12 +112,13 @@ The next step is to leverage machine learning to predict future trends in the pr
 #### 步驟:
 - **Feature Selection:** Using important features such as transaction date, property size, number of rooms, and geographic coordinates to train the model.  
   **特徵選擇：** 使用重要的特徵，如交易日期、房產面積、房間數和地理座標來訓練模型。
-
+![dashboard](https://github.com/VIC712y/Taipei-Presale-Real-Estate-Analysis-Project/blob/main/Pic/scatterplot.png?raw=true)  
 - **Model Training:** A *RandomForestRegressor* model could be a good choice for this task, given its ability to handle non-linear relationships and interactions between features.  
   **模型訓練：** *隨機森林迴歸模型* 可能是這項任務的良好選擇，因為它能夠處理特徵之間的非線性關係和交互作用。  
   Target variable: property price.  
   目標變數：房價。 
   
+![dashboard](https://github.com/VIC712y/Taipei-Presale-Real-Estate-Analysis-Project/blob/main/Pic/non-linear-relationships.png?raw=true)  
 - **Model Evaluation:** Use metrics like Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) to assess the model's accuracy.  
   **模型評估：** 使用平均絕對誤差 (MAE) 或均方根誤差 (RMSE) 等指標來評估模型的準確性。
 
